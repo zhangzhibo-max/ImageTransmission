@@ -23,7 +23,7 @@ typedef struct ConnectInfo
 	}
 }ConInfo;
 
-#define MAX_CONNECT_NUM 3
+#define MAX_CONNECT_NUM 5
 
 
 ConInfo global_coninfo[MAX_CONNECT_NUM];
