@@ -23,7 +23,7 @@ typedef struct ConnectInfo
 	}
 }ConInfo;
 
-#define MAX_CONNECT_NUM 5
+#define MAX_CONNECT_NUM 1 
 
 
 ConInfo global_coninfo[MAX_CONNECT_NUM];
@@ -71,7 +71,7 @@ void send_image_to_all_client()
 		}
 		if(strcmp(strcmd.c_str(),"quit")==0)
 		{
-			printf("bye bye...");
+			printf("bye bye...\n");
 			exit(0);
 		}
 	}
